@@ -1,0 +1,30 @@
+latency
+    measure of latency
+        average latency is not a good measure
+            because we do not know the distribution around the average
+        maximum latency is not a good measure
+            because the maximum latency may rarely happen (1% of the time)
+        percentile (of one request) still no
+            index.html takes many requests
+                all users are in the last 1%
+
+scalbility
+
+vertical scaling
+    better cpu
+    better SSD
+    better network
+    ...
+    not going to change software, not going to chage architecture, just scale the system up
+horizontal scaling
+    this course's main point
+    add more computers, drives etc
+
+speed:
+c == c++ > *3 java > *10 python
+
+use profiler to find out each funciton's time and space use
+
+cache matters a lot in speed
+
+if keep add hardware, performance actually decrease after initially improved a lot (a curve)
