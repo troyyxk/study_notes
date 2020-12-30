@@ -5,3 +5,13 @@ I already know how cache works
 
 reverse proxy
     cache on server side
+
+load balancer
+    a load balancer distribute incoming client requests among a group of servers
+    in each case returning the response from 
+
+nginx
+    reverse proxy, caching, load balancer for web applications
+
+cassandra
+    a distributed database
