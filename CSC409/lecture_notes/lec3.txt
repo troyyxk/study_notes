@@ -3,4 +3,5 @@ tool: nginx
 
 I already know how cache works
 
-proxy
+reverse proxy
+    cache on server side
