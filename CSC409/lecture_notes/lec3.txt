@@ -1,0 +1,6 @@
+cache, reverse proxy, load balancing
+tool: nginx
+
+I already know how cache works
+
+proxy
