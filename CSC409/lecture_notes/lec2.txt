@@ -1,0 +1,25 @@
+partition vs replicate
+    for code
+
+multithreading
+threads share:
+    code
+    data
+    files
+have their own:
+    registers
+    stack
+
+when using ui, mostly multi thread, usually 2, 1 for ui, 1 for backend
+
+synchronzation: shared memory
+    threads read and leave messages to each other
+    consistency error:
+        threads having different views at what should be the same data
+java synchronzation
+    every object have a lock
+liveness
+    deadlock
+    starvation
+    livelock
+...
