@@ -11,3 +11,12 @@ Link:
 ```
 https://axiom.utm.utoronto.ca/~csc409/20f/index.shtml
 ```
+
+Certificates:
+
+[AWS Certified Cloud Practitioner](https://github.com/troyyxk/study_notes/AWS_Cloud_Practitioner)
+
+Link:
+```
+https://www.udemy.com/course/aws-certified-cloud-practitioner-new/
+```
