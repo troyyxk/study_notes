@@ -1,0 +1,10 @@
+Type of Cloud Computing:
+    IaaS (Infrastructure as a Service)
+        Examples:
+            Amazon EC2
+    PaaS (Platform as a Service)
+        Examples:
+            heroku
+    Saas (Software as a Service)
+        Examples:
+            Gmail
