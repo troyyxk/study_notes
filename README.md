@@ -3,7 +3,7 @@ A record of my self learnings
 
 # University Courses:
 
-## [CSC409 Scalable Computing - University of Toronto](https://github.com/troyyxk/study_notes/CSC409)
+## [CSC409 Scalable Computing - University of Toronto](https://github.com/troyyxk/study_notes/tree/main/CSC409)
 
 Heard from my friend that it is pretty good, currently studying it.
 
@@ -14,7 +14,7 @@ https://axiom.utm.utoronto.ca/~csc409/20f/index.shtml
 
 # Certificates:
 
-## [AWS Certified Cloud Practitioner](https://github.com/troyyxk/study_notes/AWS_Cloud_Practitioner)
+## [AWS Certified Cloud Practitioner](https://github.com/troyyxk/study_notes/tree/main/AWS_Cloud_Practitioner)
 
 Link:
 ```
