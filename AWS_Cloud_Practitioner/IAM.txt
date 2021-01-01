@@ -1,0 +1,38 @@
+Identity and Access Management
+
+Global Service
+
+root user
+user
+group
+
+MFA (multi-factor authorization)
+    MFA = password + security device
+    benefit: even if password is stole or hacked, the account is not compromised
+    virtual or hardware
+
+How can user access AWS?
+    aws management console
+        protected by: password + MFA
+    aws cli
+        protected by: access key
+    aws sdk
+        protected by: access key
+
+    access keys are generated in the aws concel
+    user manage their own access key
+
+IAM row
+    decide permission
+
+Shared Responsibility Model for IAM
+    AWS
+        Infrastructure
+        Configuration
+        Compliance validation
+    You (as a user)
+        User, group, role, policy management and monitoring
+        Enable MFA for all accounts
+        rotate key often
+        use IAM tools to apply appropriate permissions
+        analyze access patterns & review permissions
