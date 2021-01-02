@@ -1,0 +1,27 @@
+Elastic Component Cloud
+
+The most popular AWS Service
+A way to use Infrastructure as a Service
+
+Consist of:
+    Renting virtual machine (EC2)
+    Storing data on virutal device (EBS)
+    Distributing load access machine (ELB)
+    Scale the Service using auto scaling machine (ASG)
+A lot of options/configuration
+
+Security Groups
+    fundation of network security in AWS
+    control how traffic is allowed into or out of EC2 instances
+    security groups only contain allow rules
+    security group rules can reference by IP or by security group
+
+Classic ports to know:
+    22 - SSH
+    21 - FTP
+    22 - SFTP
+    80 - HTTP
+    3389 - RDP
+
+
+
