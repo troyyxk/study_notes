@@ -24,4 +24,59 @@ Classic ports to know:
     3389 - RDP
 
 
+EC2 Instances Purchasing Options:
+    On-Demand Instance: short-workload, predictable pricing
+    Reserved: (MINIMUM 1 year)
+        Reserved Instances: long workloads
+        Convertible Reserved Instances: long workloads with flexible instances
+        Scheduled Reserved Instances: example - every Thursday between 3 and 6 pm
+    Sport Instances: short workloads, cheap, can lose instances (less reliable)
+    Dedicated Hosts: book an entire physical server, control instance implement
+On-Demand Instances
+    linux count per secont for billing, others count per hour
+    highest cost, no upfront payment
+    no long-term commietment
+    RECOMMEND:
+        short-term and uninterrupted workloads
+        cannot predcit how the application will behave
+Reserved Instances
+    up to 75% discount in comparison to on demand
+    reservation period: 1 year = + discount | 3 years = +++ discount
+    Purchasing options: no upfront | partial upfront = + discount | Full upfront = ++ discount
+    reserve a special instance type
+    RECOMMEND:
+        steady-state usage application
+    Convertible Reserved Instance
+        can change the EC2 instance type
+        up to 54% discount
+    Scheduled Reserved Instance
+        lauch within the window you reserve
+        when user require a fraction of day/ week/ month
+        still commit over 1 to 3 years
+Spot Instance
+    90% discount
+    price is float, it changes all the time
+    if pay lesds than the current price, will loss the instance
+    the most cost efficient instance in AWS
+    RECOMMEND:
+        useful for workloads that are resilient to failure
+    NOT RECOMMEND:
+        critical job or database
+Dedicated Host
+    RECOMMEND:
+        compliance requirements
+        can save money by using existing server-bound software service
+
+Shared Responsibility Model for EC2
+    AWS
+        Infrastructure (Global network security)
+        isolation on physical hosts
+        replacing faulty hardware
+        compliance validation
+    User
+        security groups rules
+        operation-system patches and updates
+        software and utilities installed on EC2 instance
+        IAM roles assigned to EC2 & IAM user access management
+        Data security on your instance
 
